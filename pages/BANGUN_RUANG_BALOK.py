@@ -11,5 +11,5 @@ st.header("LUAS BALOK")
 l = ( p * l ) + ( p * t ) + ( l * t )
 st.subheader(l)
 st.header("VOLUME BALOK")
-v = p * l * t
+v = (p * l) * t
 st.subheader(v)
