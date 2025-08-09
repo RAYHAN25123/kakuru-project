@@ -1,4 +1,5 @@
 import streamlit as st
+import math
 
 st.title("BANGUN RUANG BALOK")
 p = st.number_input("Masukan Nilai Panjang:")
@@ -8,8 +9,8 @@ st.header("KELILING")
 k = 4 * ( p + l + t )
 st.subheader(k)
 st.header("LUAS BALOK")
-l = ( p * l ) + ( p * t ) + ( l * t )
-st.subheader(l)
+l1 = ( p * l ) + ( p * t ) + ( l * t )
+st.subheader(l1)
 st.header("VOLUME BALOK")
-v = (p * l) * t
+v = p * l * t
 st.subheader(v)
