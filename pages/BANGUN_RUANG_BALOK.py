@@ -8,7 +8,7 @@ st.header("KELILING")
 k = 4 * ( p + l + t )
 st.subheader(k)
 st.header("LUAS BALOK")
-l = ( p * l ) + ( p * t ) + ( l * t ) * 2
+l = 2 * ( p * l ) + ( p * t ) + ( l * t )
 st.subheader(l)
 st.header("VOLUME BALOK")
 v = p * l * t
