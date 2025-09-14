@@ -22,9 +22,9 @@ sisi = st.number_input("Masukan Panjang Sisi:")
 st.header("KELILING")
 k = 4 * sisi
 st.subheader(k)
-st.header("LUAS")
+st.header("VOLUME")
 l = sisi **3
 st.subheader(l)
-st.subheader("VOLUME")
+st.subheader("LUAS PERMUKAAN")
 v = 6 * sisi **2
 st.subheader(v)
