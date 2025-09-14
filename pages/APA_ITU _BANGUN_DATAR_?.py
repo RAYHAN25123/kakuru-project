@@ -9,3 +9,5 @@ st.markdown("""
 st.markdown("""
 Nah, sekarang udah tau kan apa itu bangun datar, setelah ini mari kita mengetahui lagi lebih dalam tentang bangun datar.
 """)
+
+st.sidebar.success("👆SILAHKAN PILIH👆")
