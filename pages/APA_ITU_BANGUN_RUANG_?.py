@@ -7,5 +7,5 @@ st.markdown("""
 """)
 
 st.markdown("""
-Nah, sekarang udah tau kan apa itu bangun ruang, setelah ini mari kita mengetahui lagu lebih dalam tentang bangun ruang.
+### Nah, sekarang udah tau kan apa itu bangun ruang, setelah ini mari kita mengetahui lagi lebih dalam tentang bangun ruang.
 """)
