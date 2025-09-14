@@ -26,5 +26,5 @@ st.header("LUAS")
 l = sisi **3
 st.subheader(l)
 st.subheader("VOLUME")
-v = sisi * sisi * sisi
+v = 6 * sisi **2
 st.subheader(v)
