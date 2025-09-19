@@ -8,6 +8,7 @@ a = st.number_input("Masukan Panjang sisi 1")
 b = st.number_input("Masukan Panjang sisi 2")
 c = st.number_input("Masukan Panjang sisi 3")
 k = a + b + c
+st.header("Keliling")
 st.subheader(k)
 #Mencari Luas
 st.header("LUAS")
@@ -26,3 +27,4 @@ st.header("MENCARI TINGGI")
 ls = st.number_input("Masukan Nilai luas")
 t = ls * 1 / 2
 st.header(t)
+
