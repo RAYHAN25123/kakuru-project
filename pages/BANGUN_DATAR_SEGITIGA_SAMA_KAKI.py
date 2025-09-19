@@ -29,3 +29,11 @@ l = 1 / 2 * a * t
 st.subheader(l)
 
 st.subheader("Rumus mencari Tinggi (Jika tidak ada)")
+s1 = st.number_input("Masukan Sisi")
+a1 = st.number_input("Masukan Alas")
+t = s **2
+t1 = ((a1) /2) **2
+t2 = t - t1
+t3 = math.sqrt(t2)
+st.header("Tinggi")
+st.subheader(t3)
