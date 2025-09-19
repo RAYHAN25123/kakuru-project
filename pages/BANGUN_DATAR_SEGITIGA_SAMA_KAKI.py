@@ -1,4 +1,5 @@
 import streamlit as st
+import math
 
 st.title("SEGITIGA SAMA KAKI")
 st.markdown("""
@@ -31,9 +32,9 @@ st.subheader(l)
 st.subheader("Rumus mencari Tinggi (Jika tidak ada)")
 s1 = st.number_input("Masukan Sisi")
 a1 = st.number_input("Masukan Alas")
-t = s1 **2
-t1 = ((a1) /2) **2
-t2 = t - t1
-t3 = math.sqrt(t2)
+t1 = s1 **2
+t2 = (a1 /2) **2
+t3 = t1 - t2
+t4 = math.sqrt(t3)
 st.header("Tinggi")
-st.subheader(t3)
+st.subheader(t4)
