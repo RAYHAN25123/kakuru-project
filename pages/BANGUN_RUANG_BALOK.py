@@ -17,9 +17,9 @@ st.markdown("""
 - V = p x l x t
 """)
 
-p = st.number_input("Masukan Nilai Panjang:")
-l = st.number_input("Masukan Nilai Lebar:")
-t = st.number_input("Masukan Nilai Tinggi:")
+p = st.number_input("Masukan Nilai Panjang")
+l = st.number_input("Masukan Nilai Lebar")
+t = st.number_input("Masukan Nilai Tinggi")
 st.header("KELILING")
 k = 4 * ( p + l + t )
 st.subheader(k)
