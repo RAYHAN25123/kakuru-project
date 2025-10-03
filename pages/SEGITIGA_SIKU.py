@@ -19,6 +19,7 @@ st.subheader(l)
 #Mencari Alas
 st.header("MENCARI ALAS")
 kll = st.number_input("Masukan Keliling:")
+tinggi = st.number_input("Masukan Tinggi", key= "tinggi 1")
 als = kll / 3
 st.subheader(als)
 
@@ -27,4 +28,5 @@ st.header("MENCARI TINGGI")
 ls = st.number_input("Masukan Nilai luas")
 t = ls * 1 / 2
 st.header(t)
+
 
