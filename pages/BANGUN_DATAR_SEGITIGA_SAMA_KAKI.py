@@ -2,7 +2,7 @@ import streamlit as st
 import math
 
 st.title("SEGITIGA SAMA KAKI")
-image_url = "https://images.unsplash.com/photo-1548247738-4e3a9d201a07"
+st.image_url = "https://images.unsplash.com/photo-1548247738-4e3a9d201a07"
 st.markdown("""
 ### RUMUS :
 - s = Sisi
