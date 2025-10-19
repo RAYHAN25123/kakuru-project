@@ -16,6 +16,7 @@ t = st.number_input("Masukan Tinggi")
 v = 3,14 * r **2 * t
 st.header("Volume (3,14)")
 st.subheader(v)
-v1 = 22/ * r **2 * t
+v1 = 22/7 * r **2 * t
 st.header("Volume (22/7)")
 st.subheader(v1)
+
