@@ -13,10 +13,11 @@ st.markdown("""
 
 r = st.number_input("Masukan Jari-jari")
 t = st.number_input("Masukan Tinggi")
-v = 3,14 * r **2 * t
+v = 3.14 * r **2 * t
 st.header("Volume (3,14)")
 st.subheader(v)
 v1 = 22/7 * r **2 * t
 st.header("Volume (22/7)")
 st.subheader(v1)
+
 
