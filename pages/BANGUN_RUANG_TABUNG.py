@@ -10,9 +10,12 @@ st.markdown("""
 ### Rumus Mencari Volume :
 - V = π x r^2 x t
 """)
-st.caption("Rumus ini menggunakan π = 3,14")
+
 r = st.number_input("Masukan Jari-jari")
 t = st.number_input("Masukan Tinggi")
 v = 3,14 * r **2 * t
-st.header("Volume")
-st.subheader(v)("cm")
+st.header("Volume (3,14)")
+st.subheader(v)
+v1 = 22/ * r **2 * t
+st.header("Volume (22/7)")
+st.subheader(v1)
