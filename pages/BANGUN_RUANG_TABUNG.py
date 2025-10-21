@@ -19,7 +19,7 @@ t = st.number_input("Masukan Tinggi")
 v = 3.14 * r **2 * t
 st.header("Volume")
 st.subheader(v)
-v1 = 22/7 * (r **2 * t)
+v1 = 22 * r **2 /7 * t
 st.header("Volume (22/7)")
 st.subheader(v1)
 v2 = 2 * 3.14 * r **2
@@ -27,11 +27,12 @@ v3 = r + t
 v4 = v2 + v3
 st.header("Luas Permukaan (3,14)")
 st.subheader(v4)
-v5 = 2 * 22/7 * r **2
+v5 = 2 * 22 * r **2 /7
 v6 = r + t
 v7 = v5 + v6
 st.header("Luas Permukaan (22/7)")
 st.subheader(v7)
+
 
 
 
