@@ -31,12 +31,12 @@ v3 = r1 + t1
 v4 = v2 + v3
 st.header("Luas Permukaan (3,14)")
 st.subheader(v4)
-v5 = 2 * 22/7 r1 * r1
+v5 = 2 * 22/7 * r1 * r1
 v6 = r1 + t1
 v7 = v5 + v6
 st.header("Luas Permukaan (22/7)")
-
 st.subheader(v7)
+
 
 
 
