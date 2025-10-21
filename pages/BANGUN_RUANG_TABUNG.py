@@ -22,10 +22,6 @@ st.subheader(v)
 v1 = 22/7 * r **2 * t
 st.header("Volume (22/7)")
 st.subheader(v1)
-
-st.subheader("Mencari Luas Permukaan")
-r1 = st.number_input("Masukan Jari-jari", key = "r1")
-t1 = st.number_input("Masukan Tinggi", key = "t1")
 v2 = 2 * 3.14 * r1 **2
 v3 = r1 + t1
 v4 = v2 + v3
@@ -36,6 +32,7 @@ v6 = r1 + t1
 v7 = v5 + v6
 st.header("Luas Permukaan (22/7)")
 st.subheader(v7)
+
 
 
 
