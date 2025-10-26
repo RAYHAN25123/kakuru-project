@@ -13,7 +13,6 @@ st.markdown("""
 - LP = 2πr^2 + 2πrt
 """)
 
-st.subheader("Mencari Volume:")
 r = st.number_input("Masukan Jari-jari")
 t = st.number_input("Masukan Tinggi")
 v = (3.14 * r) * r * t
@@ -28,6 +27,7 @@ st.subheader(lp)
 lp1 = 2 * (22/7 * r) * (r + t)
 st.header("Luas Permukaan (22/7)")
 st.subheader(lp1)
+
 
 
 
