@@ -1,6 +1,7 @@
 import streamlit as st
 import math
 
+t.image("https://www.google.com/imgres?q=rumus%20segitiga%20sama%20kaki&imgurl=https%3A%2F%2Fawsimages.detik.net.id%2Fcommunity%2Fmedia%2Fvisual%2F2023%2F01%2F30%2Fcontoh-soal-segitiga-sama-kaki-2_169.png%3Fw%3D620&imgrefurl=https%3A%2F%2Fwww.detik.com%2Fbali%2Fberita%2Fd-6542283%2Fketahui-rumus-segitiga-sama-kaki-luas-keliling-dan-contoh-soal&docid=aNboYuW2rAjICM&tbnid=asD7IU7hW_OF8M&vet=12ahUKEwiJwYWV18aQAxU53jgGHdz7NIUQM3oECBUQAA..i&w=620&h=347&hcb=2&ved=2ahUKEwiJwYWV18aQAxU53jgGHdz7NIUQM3oECBUQAA", caption="Gambar ini diambil dari internet", use_column_width=True)
 st.title("SEGITIGA SAMA KAKI")
 st.markdown("""
 ### RUMUS :
