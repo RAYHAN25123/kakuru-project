@@ -1,7 +1,6 @@
 import streamlit as st
 import math
 
-st.image("https://awsimages.detik.net.id/community/media/visual/2023/01/30/contoh-soal-segitiga-sama-kaki-2_169.png?w=620", caption="Gambar ini diambil dari internet", use_container_width=True)
 st.title("SEGITIGA SAMA KAKI")
 st.markdown("""
 ### RUMUS :
