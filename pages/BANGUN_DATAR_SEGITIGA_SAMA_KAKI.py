@@ -9,6 +9,9 @@ st.markdown("""
 - t = Tinggi
 - K = Keliling
 - L = Luas
+""")
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXlzctGkQxXU1ITdLE5sxX1Pl3EbnVOGDNpw&s", caption="Gambar ini diambil dari internet", use_container_width=True)
+st.markdown("""
 ### RUMUS MENCARI KELILING :
 - K = 2 x sisi + alas
 ### RUMUS MENCARI LUAS :
