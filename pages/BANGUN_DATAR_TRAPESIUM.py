@@ -14,9 +14,7 @@ st.markdown("""
 ### RUMUS MENCARI TINGGI :
 - 2 x L / (a + b)
 """)
-st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fidschool.net%2Fsd%2Fcara-menghitung-tinggi-trapesium%2F&psig=AOvVaw0NGUZjWTw4HpfDOgrVRENV&ust=1762609450964000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKiUvaGW4JADFQAAAAAdAAAAABAE", caption="Gambar ini diambil dari internet", use_container_width=True)
 
-st.header("KELILING")
 a = st.number_input("Masukan nilai sisi A:")
 b = st.number_input("Masukan nilai sisi B:")
 c = st.number_input("Masukan nilai sisi C:")
