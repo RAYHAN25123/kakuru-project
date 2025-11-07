@@ -18,6 +18,7 @@ st.markdown("""
 - LP = 6 × sisi²
 """)
 
+st.header("VOLUME, KELILING, & LUAS PERMUKAAN")
 sisi = st.number_input("Masukan Panjang Sisi:")
 st.header("KELILING")
 k = 4 * sisi
